@@ -10,7 +10,8 @@ def isPrime(num):
 def primes(number_of_primes):
     list = []
     num = 2 #first prime number
-
+    return list
+    
     while len(list) < number_of_primes: #loop continues
         if isPrime(num): #for each number, ask if prime
             list.append(num) #if prime, number gets added to list
